@@ -1,0 +1,117 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 55% 5% ;
+    grid-template-rows: 60% 10% 30%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.highlightRed{
+    background-color: maroon;
+    color: white;
+}
+
+.highlightRed2{
+    background-color: maroon;
+    color: maroon;
+    line-height:50%;
+    font-size: 17px;
+}
+
+.moveRowUp{
+    top:-145px;
+}
+
+.finishWord{
+    color: darkslateblue;
+    font-size: 75px;
+}
+
+#changeHeaderHeight{
+    position: relative;
+    top:60px;
+}
+
+#movePuzzle{
+    top:-125px;
+}
+
+#changeBoxHeight{
+    position: relative;
+    top: -425px;
+}
+
+#changePainterHeight{
+   position: relative;
+    top: -111px;
+}
+
+#changeRightRectHeight{
+    position: relative;
+    top:-130px;
+}
+
+#moveBoxRight{
+    right:-65px;
+}
+
+.moveFinishLeft{
+    left: -90px;
+}
+
+#moveFinishDown{
+    line-height: 200%;
+}
+
+.moveRight{
+    
+    right: -100px;
+}
+.moveFromRight{
+    right: -100px;
+}
+
+.changeHeightFrom{
+    line-height: 1100%;
+}
+
+#moveColorfulSquaresLeft{
+    left:-30px;
+}
+
+.changeHeightTo{
+    line-height: 250%;
+}
+
+.moveArt{
+    right: -72px;
+}
+
+
+.fromWord{
+font-size: 50px;
+color: tan;
+
+}
+
+.artWord{
+    font-size: 100px;
+    color:firebrick;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+body{
+    background-color: red;
+}
